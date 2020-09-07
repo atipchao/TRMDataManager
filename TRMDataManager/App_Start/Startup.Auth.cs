@@ -39,6 +39,7 @@ namespace TRMDataManager
                 Provider = new ApplicationOAuthProvider(PublicClientId),
                 AuthorizeEndpointPath = new PathString("/api/Account/ExternalLogin"),
                 AccessTokenExpireTimeSpan = TimeSpan.FromDays(14),
+                //AccessTokenExpireTimeSpan = TimeSpan.FromSeconds(10),
                 // In production mode set AllowInsecureHttp = false
                 AllowInsecureHttp = true
             };
