@@ -14,6 +14,6 @@ namespace TRMDataManager.Models
         }
 
         public DbSet<Employee> Employees { get; set; }
-
+        public DbSet<DataFile> DataFiles { get; set; }
     }
 }
